@@ -14,6 +14,7 @@
 
 .debug .hero {
     height: 400px;
+    background-color: #ee82ee;
 }
 
 .debug .row {
@@ -22,6 +23,8 @@
 
 .debug .big-box {
     height: 1000px;
+    background-color: #228b22;
+
 }
 
 .debug .row-footer {
@@ -32,6 +35,10 @@
     height: 110px;
     display: flex;
 }
+
+.debug footer {
+    background-color: #23272a;
+}
 /* COMMON */
 
 .container{
@@ -41,10 +48,6 @@
 
 section:nth-child(even) {
     background-color: #d3d3d3;
-}
-
-footer {
-    background-color: #23272a;
 }
 
 /* HEADER */
@@ -70,7 +73,6 @@ footer {
 
 .hero {
     width: 60%;
-    background-color: #ee82ee;
     margin: auto;
     border: 3px dashed black;
 }
@@ -101,7 +103,6 @@ footer {
 }
 
 .big-box {
-    background-color: #228b22;
     border: 3px dashed black;
 }
 
