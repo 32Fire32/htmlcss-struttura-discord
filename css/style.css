@@ -11,13 +11,12 @@
     border: 3px dashed black;
 }
 
-.debug .header-top {
-    background-color: #daa520;
+.debug .main-nav {
+    border: 3px dashed black;
 }
 
-.debug .link {
-    border-top: 3px dashed black;
-    border-bottom: 3px dashed black;
+.debug .header-top {
+    background-color: #daa520;
 }
 
 .debug header{
@@ -59,7 +58,6 @@
     height: 1000px;
     background-color: #228b22;
     border: 3px dashed black;
-
 }
 
 .debug .row-footer {
@@ -102,6 +100,22 @@ section:nth-child(even) {
 /* HEADER */
 .header-top{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul li {
+    margin: 0 10px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .logo, .login {
@@ -110,10 +124,9 @@ section:nth-child(even) {
     text-align: center;
 }
 
-.link {    
+.main-nav {    
     padding:10px;
-    width: 80%;
-    text-align: center;
+    width: 60%;
 }
 
 .hero {
