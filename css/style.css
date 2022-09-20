@@ -7,14 +7,48 @@
 
 /* DEBUG */
 
+.debug .logo, .debug .login{
+    border: 3px dashed black;
+}
+
+.debug .header-top {
+    background-color: #daa520;
+}
+
+.debug .link {
+    border-top: 3px dashed black;
+    border-bottom: 3px dashed black;
+}
+
 .debug header{
  background-color: #add8e6;
  padding-top: 16px;
 }
 
+.debug .row-hero{
+    background-color: #00008b;
+}
+
 .debug .hero {
     height: 400px;
     background-color: #ee82ee;
+    border: 3px dashed black;
+
+}
+
+.debug .col-pink{
+    background-color: #f08080;
+    border: 3px dashed black;
+}
+
+.debug .col-big{
+    background-color: #1e90ff;
+    border: 3px dashed black;
+}
+
+.debug .col-small {
+    background-color: #ffc0cb;
+    border: 3px dashed black;
 }
 
 .debug .row {
@@ -24,6 +58,7 @@
 .debug .big-box {
     height: 1000px;
     background-color: #228b22;
+    border: 3px dashed black;
 
 }
 
@@ -39,6 +74,20 @@
 .debug footer {
     background-color: #23272a;
 }
+
+.debug .row-acqua {
+    background-color: #7fffd4;
+}
+
+.debug .col1{
+    border: 3px dashed white;
+
+}
+
+.debug .logo2, .debug .bottone {
+    border: 3px dashed black;
+    background-color: #ffc0cb;
+}
 /* COMMON */
 
 .container{
@@ -53,19 +102,15 @@ section:nth-child(even) {
 /* HEADER */
 .header-top{
     display: flex;
-    background-color: #daa520;
 }
 
 .logo, .login {
     width: 20%;
-    border: 3px dashed black;
     padding:10px;
     text-align: center;
 }
 
-.link {
-    border-top: 3px dashed black;
-    border-bottom: 3px dashed black;
+.link {    
     padding:10px;
     width: 80%;
     text-align: center;
@@ -74,11 +119,9 @@ section:nth-child(even) {
 .hero {
     width: 60%;
     margin: auto;
-    border: 3px dashed black;
 }
 
 .row-hero {
-    background-color: #00008b;
     margin-top: 20px;
     padding: 40px;
 }
@@ -87,14 +130,12 @@ section:nth-child(even) {
 
 .col-big {
     width: 60%;
-    background-color: #1e90ff;
-    border: 3px dashed black;
+    
 }
 
 .col-small {
     width: 40%;
-    background-color: #ffc0cb;
-    border: 3px dashed black;
+    
 }
 
 .row {
@@ -103,7 +144,6 @@ section:nth-child(even) {
 }
 
 .big-box {
-    border: 3px dashed black;
 }
 
 #green {
@@ -122,8 +162,7 @@ section:nth-child(even) {
 
 .col-pink {
     width: 30%;
-    background-color: #f08080;
-    border: 3px dashed black;
+    
 
 }
 
@@ -135,14 +174,12 @@ section:nth-child(even) {
 
 .col1{
     width: 25%;
-    border: 3px dashed white;
 }
 
 .row-acqua{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #7fffd4;
     padding:20px 0;
     margin-top: 30px;
     text-align: center;
@@ -151,14 +188,10 @@ section:nth-child(even) {
 
 .logo2 {
     width: 10%;
-    border: 3px dashed black;
     padding:10px;
-    background-color: #ffc0cb;
 }
 
 .bottone {
     width: 10%;
-    border: 3px dashed black;
     padding:10px;
-    background-color: #ffc0cb;
 }
